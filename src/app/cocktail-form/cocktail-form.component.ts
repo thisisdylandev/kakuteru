@@ -26,9 +26,8 @@ export class CocktailFormComponent {
   cocktails: Drink[] | null | undefined = [];
 
   findCocktailBySpirit() {
-    this.http.get('https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=bourbon').subscribe(response => {
-      const drinkResponse: DrinksResponse = response;
-      this.cocktails = drinkResponse.drinks
+    this.http.get(`https://www.thecocktaildb.com/api/json/v1/1/filter.php?i=${this.spirit}`).subscribe((response: DrinksResponse) => {
+      this.cocktails = response.drinks
     });
   }
 }

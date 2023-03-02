@@ -1,8 +1,11 @@
 <div fxLayout="column" class="cocktail__form">
   <mat-form-field class="cocktail__form--input">
     <mat-label>Spirit</mat-label>
-    <input matInput [(ngModel)]="spirit">
+    <input matInput [(ngModel)]="spirit" (keyup.enter)="findCocktailBySpirit()">
   </mat-form-field>
   <button mat-raised-button color="primary" (click)="findCocktailBySpirit()">Find Some Booze</button>
-  <p>{{ spirit }}</p>
+  <ul *ngIf="cocktails">
+    <li *ngFor="let drink of cocktails">{{ drink.strDrink }}</li>
+  </ul>
+
 </div>
