@@ -26,6 +26,7 @@ This app allows users to search for cocktail recipes based on the type of spirit
 What did you learn while building this project? What challenges did you face and how did you overcome them?
 
 - Angular is very different than React or Vue, it may take some boilerplate to do simple tasks, but the DX is much more pleasant
-- Add more things
+- Think I like tailwind or bootstrap over angular material, because they come with css helper classes for things like margin and padding
+- firebase hosting is still super easy
 
   
