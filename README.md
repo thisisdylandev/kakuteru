@@ -1,27 +1,31 @@
 # Kakuteru
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.0.
+This app allows users to search for cocktail recipes based on the type of spirit they prefer.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Find cocktails by spirit
+    - Users can search cocktails by whatever sprit they have on hand
+- See cocktail ingredients
+    - Users can see a recipe for cocktails
 
-## Code scaffolding
+## Tech Stack
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+**Client:** Angular, Angular Material
 
-## Build
+**Server:** [TheCocktailDB](https://www.thecocktaildb.com/api.php)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+  
+## Authors
 
-## Running unit tests
+- [@thisisdylandev](https://www.github.com/thisisdylandev)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+  
+## Lessons Learned
 
-## Running end-to-end tests
+What did you learn while building this project? What challenges did you face and how did you overcome them?
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Angular is very different than React or Vue, it may take some boilerplate to do simple tasks, but the DX is much more pleasant
+- Add more things
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+  
