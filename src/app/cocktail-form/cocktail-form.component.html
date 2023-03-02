@@ -5,7 +5,7 @@
   </mat-form-field>
   <button mat-raised-button color="primary" (click)="findCocktailBySpirit()">Find Some Booze</button>
   <ul *ngIf="cocktails">
-    <li *ngFor="let drink of cocktails">{{ drink.strDrink }}</li>
+    <li *ngFor="let drink of cocktails"><a routerLink="/recipe/{{drink.idDrink}}">{{ drink.strDrink }}</a></li>
   </ul>
 
 </div>

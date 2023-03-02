@@ -11,12 +11,14 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NavComponent } from './nav/nav.component';
 import { CocktailFormComponent } from './cocktail-form/cocktail-form.component';
 import { MaterialModule } from './material/material.module';
+import { RecipeComponent } from './recipe/recipe.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    CocktailFormComponent
+    CocktailFormComponent,
+    RecipeComponent
   ],
   imports: [
     BrowserModule,
