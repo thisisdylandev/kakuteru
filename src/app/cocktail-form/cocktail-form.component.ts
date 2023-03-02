@@ -8,8 +8,7 @@ import { Component } from '@angular/core';
 export class CocktailFormComponent {
   spirit: string = '';
 
-  onSpiritInput(newValue: string) {
-    this.spirit = newValue;
+  onSpiritInput() {
     console.log(this.spirit)
   }
 }
