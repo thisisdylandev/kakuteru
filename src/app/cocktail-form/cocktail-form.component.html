@@ -1,7 +1,8 @@
 <div fxLayout="column" class="cocktail__form">
-  <mat-form-field appearance="fill">
+  <mat-form-field class="cocktail__form--input">
     <mat-label>Spirit</mat-label>
     <input matInput [(ngModel)]="spirit">
   </mat-form-field>
-  <p>Sprit entered: {{ spirit }}</p>
+  <button mat-raised-button color="primary" (click)="findCocktailBySpirit()">Find Some Booze</button>
+  <p>{{ spirit }}</p>
 </div>

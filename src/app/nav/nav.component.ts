@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.component.sass']
 })
 export class NavComponent {
-
+  // TODO: add a button and a method to clear the UI
 }
