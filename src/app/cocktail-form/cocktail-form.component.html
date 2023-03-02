@@ -1,6 +1,7 @@
 <div fxLayout="column" class="cocktail__form">
   <mat-form-field appearance="fill">
-    <mat-label>Input</mat-label>
-    <input matInput>
+    <mat-label>Spirit</mat-label>
+    <input matInput [(ngModel)]="spirit">
   </mat-form-field>
+  <p>Sprit entered: {{ spirit }}</p>
 </div>

@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./cocktail-form.component.sass']
 })
 export class CocktailFormComponent {
+  spirit: string = '';
 
+  onSpiritInput(newValue: string) {
+    this.spirit = newValue;
+    console.log(this.spirit)
+  }
 }
